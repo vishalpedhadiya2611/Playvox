@@ -1,0 +1,26 @@
+.testimonial-carousel {
+  padding: 40px 20px;
+}
+
+.testimonial-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+.owl-item.active.center .testimonial-card {
+  transform: scale(1.1);
+  z-index: 1;
+  margin-top: -5%;
+  margin-bottom: -5%;
+}
+
+.owl-item .testimonial-card {
+  transform: scale(0.9);
+  /* opacity: 0.7; */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 425px) {
+  .testimonial-card {
+    width: 211px;
+  }
+}

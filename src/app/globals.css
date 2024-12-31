@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-double{
+  background: linear-gradient(87.24deg, #22293A 0.69%, #29344D 99.64%);
+}
+.bg{
+  background: url('/assets/cashback/mask-group.png');
+}
+/* .owl-item.active.center .testimonial-card{
+  padding: 50px 25px;
+} */
