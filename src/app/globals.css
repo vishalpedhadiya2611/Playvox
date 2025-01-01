@@ -32,6 +32,11 @@ body {
 .bg{
   background: url('/assets/cashback/mask-group.png');
 }
+
+.bg-cashback{
+  background: linear-gradient(87.24deg, rgba(66, 29, 104, 0.2), rgba(137, 28, 252, 0.2));
+}
+
 /* .owl-item.active.center .testimonial-card{
   padding: 50px 25px;
 } */

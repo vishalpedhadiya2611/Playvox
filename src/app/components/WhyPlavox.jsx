@@ -74,7 +74,8 @@ const WhyPlavox = () => {
           </div>
         ))}
       </div>
-      <div className="bg-back-image pt-[52px] pb-[43px]">
+      <div className="bg-back-image bg-no-repeat bg-cover">
+      <div className="bg-cashback pt-[52px] pb-[43px]">
           <h2 className="font-extrabold text-[36px] p-4 sm:text-[40px] leading-[50px] text-center mb-[29px]">
             Earn cashback upto <br className="hidden sm:block" /> ₹300 on App
             download!
@@ -95,6 +96,7 @@ const WhyPlavox = () => {
               alt="google-play"
             />
           </div>
+      </div>
       </div>
     </div>
   );
