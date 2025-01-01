@@ -46,7 +46,7 @@ const WinDouble = () => {
           <div className="h-[269px] relative flex items-center overflow-hidden justify-end bg-[#141924]">
             <div className="flex flex-col absolute left-[40px]">
               <h2 className="leading-[28px] text-[19px] ls:text-[23px] font-extrabold ml-[-30px] text-center w-[125px]">
-                You put a token money of say ₹10
+              Compete against another player with a ₹10 bet
               </h2>
               <Image
                 src="/assets/How will you win the double/Vector 9.svg"
@@ -74,7 +74,7 @@ const WinDouble = () => {
             />
             <div className="flex flex-col">
               <h2 className="leading-[28px] text-[19px] ls:text-[23px] font-extrabold ml-[-30px] text-center w-[125px] ">
-                You put a token money of say ₹10
+              The winner takes the entire pot
               </h2>
               <Image
                 src="/assets/How will you win the double/Vector 7.png"
