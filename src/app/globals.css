@@ -161,11 +161,11 @@ body {
 }
 .our-img img:nth-child(9){
   width: auto !important;
-  margin-left: 25px;
+  margin-right: 25px;
 }
 .our-img img:nth-child(8){
   width: auto !important;
-  margin-right: 25px;
+  margin-right: -15px;
 }
 .our-img img:nth-child(7){
   width: 140px !important;
