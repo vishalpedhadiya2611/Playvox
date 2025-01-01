@@ -23,7 +23,7 @@ const Carousel = () => {
     margin: 10,
     nav: false,
     dots: true,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     responsive: {
@@ -107,7 +107,7 @@ const Carousel = () => {
                   <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
                     Chess
                   </h6>
-                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal line-clamp-[7]">
                     A two-player game, where each player starts with 12 pieces.
                     The objective is to capture all opponent's pieces or block
                     their moves, with kings moving both forward and backward
@@ -151,7 +151,7 @@ const Carousel = () => {
                   <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
                     Chess
                   </h6>
-                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal line-clamp-[7]">
                     A two-player game, where each player starts with 12 pieces.
                     The objective is to capture all opponent's pieces or block
                     their moves, with kings moving both forward and backward
@@ -195,7 +195,7 @@ const Carousel = () => {
                   <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
                     Chess
                   </h6>
-                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal line-clamp-[7]">
                     A two-player game, where each player starts with 12 pieces.
                     The objective is to capture all opponent's pieces or block
                     their moves, with kings moving both forward and backward
@@ -239,7 +239,7 @@ const Carousel = () => {
                   <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
                     Chess
                   </h6>
-                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal line-clamp-[7]">
                     A two-player game, where each player starts with 12 pieces.
                     The objective is to capture all opponent's pieces or block
                     their moves, with kings moving both forward and backward
@@ -284,7 +284,7 @@ const Carousel = () => {
                   <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
                     Chess
                   </h6>
-                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal line-clamp-[7]">
                     A two-player game, where each player starts with 12 pieces.
                     The objective is to capture all opponent's pieces or block
                     their moves, with kings moving both forward and backward
@@ -329,7 +329,7 @@ const Carousel = () => {
                   <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
                     Chess
                   </h6>
-                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal line-clamp-[7]">
                     A two-player game, where each player starts with 12 pieces.
                     The objective is to capture all opponent's pieces or block
                     their moves, with kings moving both forward and backward
@@ -339,7 +339,7 @@ const Carousel = () => {
             </div>
           </div>
         </OwlCarousel>
-        <h2 className="text-center tracking-[3px] sm:tracking-[14px] text-[14px] sm:text-xl font-medium leading-[28px] text-[#656B7B] mb-[59px] mt-[29px]">
+        <h2 className="text-center tracking-[3px] ss:tracking-[14px] text-[14px] ss:text-xl font-medium leading-[28px] text-[#656B7B] mb-[59px] mt-[29px]">
           And much more in development!
         </h2>
       </div>

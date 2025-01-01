@@ -40,7 +40,7 @@ const ButtonWithModal = ({ className }) => {
       {isModalOpen && (
         <div className="modal-overlay" ref={modalOverlayRef}>
           <div className="modal" ref={modalRef}>
-            <button className="close-btn p-0 absolute right-[37px] top-[37px]" onClick={closeModal}>
+            <button className="close-btn p-0 absolute right-5 ss:right-[37px] top-5 ss:top-[37px]" onClick={closeModal}>
               &times;
             </button>
             <div className="modal-content">
