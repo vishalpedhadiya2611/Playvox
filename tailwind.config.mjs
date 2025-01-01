@@ -29,7 +29,7 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('/assets/Main-menu/bg.png')",
-        'back-image': "url('/assets/cashback/mask-group.png')",
+        'back-image': "url('/assets/cashback/mask-group.svg')",
         'custom-gradient': 'linear-gradient(90deg, #7D04FC 0%, #891CFC 100%)',
         "back-gradient": 'linear-gradient(87.24deg, #421d6799 0.69%, #891dfcb3 99.64%)',
         "footer-gradient": 'linear-gradient(87.24deg, #22293A 0.69%, #29344D 99.64%)',

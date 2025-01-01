@@ -4,41 +4,41 @@ import React from "react";
 const data = [
   {
     key: 1,
-    imageURL: "/assets/Why Plavox/1.png",
+    imageURL: "/assets/Why Plavox/1.svg",
     title: "Secured payments",
     description:
       "Advanced safeguards guarantee seamless and secure transactions",
   },
   {
     key: 2,
-    imageURL: "/assets/Why Plavox/2.png",
+    imageURL: "/assets/Why Plavox/2.svg",
     title: "Multilingual option available",
     description: "Connect and compete with players from across the globe",
   },
   {
     key: 3,
-    imageURL: "/assets/Why Plavox/3.png",
+    imageURL: "/assets/Why Plavox/3.svg",
     title: "Skill enhancing games",
     description:
       "Gain an edge with games that put your skills to the ultimate test",
   },
   {
     key: 4,
-    imageURL: "/assets/Why Plavox/4.png",
+    imageURL: "/assets/Why Plavox/4.svg",
     title: "Cognitive development",
     description:
       "Enhance your cognitive skills to tackle real-life challenges with ease",
   },
   {
     key: 5,
-    imageURL: "/assets/Why Plavox/5.png",
+    imageURL: "/assets/Why Plavox/5.svg",
     title: "Strategic thinking",
     description:
       "Develop strategic thinking that empowers smarter decisions in everyday life",
   },
   {
     key: 6,
-    imageURL: "/assets/Why Plavox/6.png",
+    imageURL: "/assets/Why Plavox/6.svg",
     title: "Earning opportunity",
     description:
       "Turn your passion for gaming into a rewarding opportunity to earn",
@@ -74,8 +74,7 @@ const WhyPlavox = () => {
           </div>
         ))}
       </div>
-      <div className="bg-back-image ">
-        <div className="bg-back-gradient pt-[52px] pb-[43px]">
+      <div className="bg-back-image pt-[52px] pb-[43px]">
           <h2 className="font-extrabold text-[36px] p-4 sm:text-[40px] leading-[50px] text-center mb-[29px]">
             Earn cashback upto <br className="hidden sm:block" /> ₹300 on App
             download!
@@ -96,7 +95,6 @@ const WhyPlavox = () => {
               alt="google-play"
             />
           </div>
-        </div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import React from "react";
 const HeroBanner = () => {
   return (
     <div className="bg-hero-pattern w-full bg-cover">
-      <div className="flex flex-col md:flex-row mx-auto relative px-[24px] py-[21px] ts:py-0 ts:px-0 max-w-[1008px] ts:h-[461px] items-end overflow-hidden justify-start ls:justify-end">
+      <div className="flex flex-col md:flex-row mx-auto relative px-[24px] py-[21px] ts:py-0 ts:px-0 max-w-[1008px] ts:h-[461px] items-end overflow-hidden justify-start md:justify-end">
         <div className="ts:py-[115px] ts:absolute ts:w-[487px] top-0 left-0 pl-0 ts:pl-[30px] lg:pl-0">
           <h3 className="font-extrabold	text-4xl mb-[21px] text-white">
             Earn cashback upto <br className="hidden sm:block"/> ₹300 on App download!{" "}
@@ -15,14 +15,14 @@ const HeroBanner = () => {
           </div>
           <div className="flex justify-start items-center gap-2 flex-wrap">
             <Image
-              src="/assets/app-play-store/app-store.png"
+              src="/assets/app-play-store/app-store.svg"
               width={100}
               height={100}
               className="w-[130px] sm:w-[173px] h-[48px] sm:h-[58px]"
               alt="app-store"
             />
             <Image
-              src="/assets/app-play-store/google-play.png"
+              src="/assets/app-play-store/google-play.svg"
               width={100}
               height={100}
               className="w-[130px] sm:w-[173px] h-[48px] sm:h-[58px]"

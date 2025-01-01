@@ -4,12 +4,12 @@ import TestimonialsCarousel from "./TestimonialsCarousel";
 import Marquee from "react-fast-marquee";
 
 const data = [
-  "/assets/Our Partners/1.png",
-  "/assets/Our Partners/2.png",
-  "/assets/Our Partners/3.png",
-  "/assets/Our Partners/4.png",
-  "/assets/Our Partners/5.png",
-  "/assets/Our Partners/6.png",
+  "/assets/Our Partners/1.svg",
+  "/assets/Our Partners/2.svg",
+  "/assets/Our Partners/3.svg",
+  "/assets/Our Partners/4.svg",
+  "/assets/Our Partners/5.svg",
+  "/assets/Our Partners/6.svg",
 ];
 
 const WhatPeopleSays = () => {

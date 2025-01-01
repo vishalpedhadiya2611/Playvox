@@ -54,8 +54,8 @@ const Navbar = () => {
             <div className="flex w-full ls:w-auto justify-start shrink-0 items-center">
               <img
                 alt="Your Company"
-                src="/assets/logo.png"
-                className="h-auto w-[125px]"
+                src="/assets/Group 1171275367.svg"
+                className="w-[174px] h-[64px] object-contain"
               />
             </div>
             <div className="hidden ls:ml-6 ls:block">

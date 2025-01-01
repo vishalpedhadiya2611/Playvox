@@ -69,13 +69,13 @@ const Carousel = () => {
       <OwlCarousel className="owl-carousel owl-theme" {...options}>
         <div className="item rounded-[30px] overflow-hidden relative group ">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings/Vertical-Banner.png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Vertical-Banner.svg"
             alt="Item 1"
             width={100}
             height={100}
             className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
           />
-          <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
+          <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
               src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
@@ -107,7 +107,7 @@ const Carousel = () => {
         </div>
         <div className="item rounded-[30px] overflow-hidden relative group">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings/Vertical-Banner-1.png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Vertical-Banner-1.svg"
             alt="Item 2"
             width={100}
             height={100}
@@ -145,13 +145,13 @@ const Carousel = () => {
         </div>
         <div className="item rounded-[30px] overflow-hidden relative group">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings/Banner.png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Banner.svg"
             alt="Item 3"
             width={100}
             height={100}
             className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
           />
-          <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
+          <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
               src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
@@ -183,13 +183,13 @@ const Carousel = () => {
         </div>
         <div className="item rounded-[30px] overflow-hidden relative group">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings/Vertical-Banner-2.png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Vertical-Banner-2.svg"
             alt="Item 4"
             width={100}
             height={100}
             className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
           />
-          <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
+          <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
               src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
@@ -221,7 +221,7 @@ const Carousel = () => {
         </div>
         <div className="item rounded-[30px] overflow-hidden relative group">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings/Banner-1.png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Banner-1.svg"
             alt="Item 5"
             width={100}
             height={100}
@@ -265,7 +265,7 @@ const Carousel = () => {
             height={100}
             className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
           />
-          <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
+          <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
               src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
