@@ -73,7 +73,7 @@ const Carousel = () => {
             alt="Item 1"
             width={100}
             height={100}
-            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
+            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full object-cover"
           />
           <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-5 ls:pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
@@ -111,7 +111,7 @@ const Carousel = () => {
             alt="Item 2"
             width={100}
             height={100}
-            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
+            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full object-cover"
           />
           <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
@@ -149,7 +149,7 @@ const Carousel = () => {
             alt="Item 3"
             width={100}
             height={100}
-            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
+            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full object-cover"
           />
           <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
@@ -187,7 +187,7 @@ const Carousel = () => {
             alt="Item 4"
             width={100}
             height={100}
-            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
+            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full object-cover"
           />
           <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
@@ -225,7 +225,7 @@ const Carousel = () => {
             alt="Item 5"
             width={100}
             height={100}
-            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
+            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full object-cover"
           />
           <div className=" p-[14px] hidden backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] group-hover:flex justify-center items-start  flex-col h-full w-full absolute top-0 left-0">
             <Image
@@ -263,7 +263,7 @@ const Carousel = () => {
             alt="Item 3"
             width={100}
             height={100}
-            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
+            className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full object-cover"
           />
           <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
