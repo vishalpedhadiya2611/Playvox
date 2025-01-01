@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bg-footer-gradient pt-[25px] ">
       <div>
-        <div className="hidden ss:flex justify-center items-center gap-3 mb-[27px]">
+        <div className="hidden ts:flex justify-center items-center gap-3 mb-[27px]">
           <Link href="#" className="text-white bg-transparent hover:text-white rounded-md px-3 py-2 text-sm font-medium leading-[28px]">Home</Link>
           <Link href="#" className="text-[#656B7B] bg-transparent hover:text-white rounded-md px-3 py-2 text-sm font-medium leading-[28px]">Our Games</Link>
           <Link href="#" className="text-[#656B7B] bg-transparent hover:text-white rounded-md px-3 py-2 text-sm font-medium leading-[28px]">How it works</Link>

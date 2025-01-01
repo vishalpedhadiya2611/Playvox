@@ -43,6 +43,15 @@ body {
     rgba(137, 28, 252, 0.2)
   );
 }
+@media screen and (max-width: 601px) {
+  .bg-cashback-res {
+    background: linear-gradient(
+      87.24deg,
+      rgb(66 29 104 / 85%),
+      rgb(137 28 252 / 84%)
+    );
+  }
+}
 
 /* .owl-item.active.center .testimonial-card{
   padding: 50px 25px;

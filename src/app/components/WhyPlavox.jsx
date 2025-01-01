@@ -51,7 +51,7 @@ const WhyPlavox = () => {
       <h2 className="text-center text-[36px] sm:text-[40px] leading-[58px] font-extrabold mb-[44px]">
         Why Plavox?
       </h2>
-      <div className="max-w-[992px] grid grid-cols-2 md:grid-cols-3 gap-y-[50px] px-3 sm:px-0 mx-auto pb-[51px] ">
+      <div className="max-w-[992px] grid grid-cols-2 ts:grid-cols-3 gap-y-[50px] px-[25px] ss:px-0 mx-auto pb-[51px]">
         {data.map((img) => (
           <div key={img.key} className="">
             <div className="bg-[#7D04FC] mx-auto mb-[23px] w-[68px] h-[68px] rounded-full flex justify-center items-center">
@@ -74,8 +74,8 @@ const WhyPlavox = () => {
           </div>
         ))}
       </div>
-      <div className="bg-back-image bg-no-repeat bg-cover bg-[36%_top]">
-      <div className="bg-cashback pt-[52px] pb-[43px]">
+      <div className="bg-back-image-res md:bg-back-image bg-no-repeat bg-cover bg-[36%_top]">
+      <div className="bg-cashback bg-cashback-res pt-[52px] pb-[43px]">
           <h2 className="font-extrabold text-[36px] lg:py-4 px-[21px] sm:text-[40px] leading-[50px] text-center mb-[29px]">
             Earn cashback upto <br className="hidden sm:block" /> ₹300 on App
             download!

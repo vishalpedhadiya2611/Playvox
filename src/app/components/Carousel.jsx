@@ -339,7 +339,7 @@ const Carousel = () => {
             </div>
           </div>
         </OwlCarousel>
-        <h2 className="text-center tracking-[3px] ss:tracking-[14px] text-[14px] ss:text-xl font-medium leading-[28px] text-[#656B7B] mb-[59px] mt-[29px]">
+        <h2 className="text-center tracking-[3px] ts:tracking-[14px] text-[14px] ts:text-xl font-medium leading-[28px] text-[#656B7B] mb-[59px] mt-[29px]">
           And much more in development!
         </h2>
       </div>
