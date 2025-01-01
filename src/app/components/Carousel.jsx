@@ -59,7 +59,7 @@ const Carousel = () => {
       <OwlCarousel className="owl-carousel owl-theme" {...options}>
         <div className="item rounded-[30px] overflow-hidden relative group ">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings!/Vertical Banner.png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Vertical-Banner.png"
             alt="Item 1"
             width={100}
             height={100}
@@ -67,7 +67,7 @@ const Carousel = () => {
           />
           <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (3).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -84,7 +84,7 @@ const Carousel = () => {
           </div>
           <div className="absolute bottom-[51px] left-[32px]">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (3).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -97,7 +97,7 @@ const Carousel = () => {
         </div>
         <div className="item rounded-[30px] overflow-hidden relative group">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings!/Vertical Banner (1).png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Vertical-Banner-1.png"
             alt="Item 2"
             width={100}
             height={100}
@@ -105,7 +105,7 @@ const Carousel = () => {
           />
           <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (3).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -122,7 +122,7 @@ const Carousel = () => {
           </div>
           <div className="absolute bottom-[51px] left-[32px]">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (3).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -135,7 +135,7 @@ const Carousel = () => {
         </div>
         <div className="item rounded-[30px] overflow-hidden relative group">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings!/Banner.png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Banner.png"
             alt="Item 3"
             width={100}
             height={100}
@@ -143,7 +143,7 @@ const Carousel = () => {
           />
           <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (3).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -160,7 +160,7 @@ const Carousel = () => {
           </div>
           <div className="absolute bottom-[51px] left-[32px]">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (4).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (4).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -173,7 +173,7 @@ const Carousel = () => {
         </div>
         <div className="item rounded-[30px] overflow-hidden relative group">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings!/Vertical Banner (2).png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Vertical-Banner-2.png"
             alt="Item 4"
             width={100}
             height={100}
@@ -181,7 +181,7 @@ const Carousel = () => {
           />
           <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (3).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -198,7 +198,7 @@ const Carousel = () => {
           </div>
           <div className="absolute bottom-[51px] left-[32px]">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (5).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (5).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -211,7 +211,7 @@ const Carousel = () => {
         </div>
         <div className="item rounded-[30px] overflow-hidden relative group">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings!/Banner (1).png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Banner-1.png"
             alt="Item 5"
             width={100}
             height={100}
@@ -219,7 +219,7 @@ const Carousel = () => {
           />
           <div className=" p-[14px] hidden backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] group-hover:flex justify-center items-start  flex-col h-full w-full absolute top-0 left-0">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (3).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -236,7 +236,7 @@ const Carousel = () => {
           </div>
           <div className="absolute bottom-[51px] left-[32px]">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (6).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (6).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -249,7 +249,7 @@ const Carousel = () => {
         </div>
         <div className="item rounded-[30px] overflow-hidden relative group">
           <Image
-            src="/assets/Play, Win, and Multiply Your Winnings!/Banner.png"
+            src="/assets/Play, Win, and Multiply Your Winnings/Banner.png"
             alt="Item 3"
             width={100}
             height={100}
@@ -257,7 +257,7 @@ const Carousel = () => {
           />
           <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (3).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (3).png"
               alt="Checkers"
               width={30}
               height={30}
@@ -274,7 +274,7 @@ const Carousel = () => {
           </div>
           <div className="absolute bottom-[51px] left-[32px]">
             <Image
-              src="/assets/Play, Win, and Multiply Your Winnings!/sub-logo/Logo (4).png"
+              src="/assets/Play, Win, and Multiply Your Winnings/sub-logo/Logo (4).png"
               alt="Checkers"
               width={30}
               height={30}
