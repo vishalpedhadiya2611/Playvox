@@ -51,7 +51,7 @@ const WhyPlavox = () => {
       <h2 className="text-center text-[36px] sm:text-[40px] leading-[58px] font-extrabold mb-[44px]">
         Why Plavox?
       </h2>
-      <div className="2xl:container grid grid-cols-2 sm:grid-cols-3 gap-y-[50px] px-2 sm:px-0 mx-auto pb-[51px] ">
+      <div className="max-w-[992px] grid grid-cols-2 md:grid-cols-3 gap-y-[50px] px-2 sm:px-0 mx-auto pb-[51px] ">
         {data.map((img) => (
           <div key={img.key} className="">
             <div className="bg-[#7D04FC] mx-auto mb-[23px] w-[68px] h-[68px] rounded-full flex justify-center items-center">
@@ -78,18 +78,18 @@ const WhyPlavox = () => {
           <h2 className="font-extrabold text-[36px] p-4 sm:text-[40px] leading-[50px] text-center mb-[29px]">
             Earn cashback upto <br className="hidden sm:block" /> ₹300 on App download!
           </h2>
-          <div className="flex justify-center items-center gap-2">
+          <div className="flex justify-center items-center gap-2 flex-wrap">
             <Image
               src="/assets/app-play-store/app-store.png"
               width={100}
               height={100}
-              className="w-[173px] h-[58px]"
+              className="w-[130px] sm:w-[173px] h-[58px]"
             />
             <Image
               src="/assets/app-play-store/google-play.png"
               width={100}
               height={100}
-              className="w-[173px] h-[58px]"
+              className="w-[130px] sm:w-[173px] h-[58px]"
             />
           </div>
         </div>

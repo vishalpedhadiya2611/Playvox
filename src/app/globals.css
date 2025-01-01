@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Eudoxus Sans";
+  src: url("/fonts/EudoxusSans-Medium-BF659b6cb1c14cb.ttf") format("truetype");
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-custom: "Eudoxus Sans", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

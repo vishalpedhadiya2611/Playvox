@@ -22,7 +22,7 @@ const WinDouble = () => {
       </div>
       <div className="bg-double relative h-fit sm:h-[517px]">
         <div className="block sm:hidden">
-          <div className="h-[269px] flex items-center">
+          <div className="h-[269px] flex items-center overflow-hidden">
             <Image
               src="/assets/How will you win the double/Group 1171275348.svg"
               alt="img1"
@@ -43,7 +43,7 @@ const WinDouble = () => {
               />
             </div>
           </div>
-          <div className="h-[269px] relative flex items-center justify-end bg-[#141924]">
+          <div className="h-[269px] relative flex items-center overflow-hidden justify-end bg-[#141924]">
             <div className="flex flex-col absolute left-[40px]">
               <h2 className="leading-[28px] text-[19px] sm:text-[23px] font-extrabold ml-[-30px] text-center w-[125px]">
                 You put a token money of say ₹10
@@ -63,8 +63,8 @@ const WinDouble = () => {
               alt="img3"
               className="h-[269px] object-contain ml-[20px] !w-auto"
             />
-          </div>
-          <div className="h-[269px] flex items-center">
+          </div> 
+          <div className="h-[269px] flex items-center overflow-hidden">
             <div className="flex flex-col">
               <h2 className="leading-[28px] text-[19px] sm:text-[23px] font-extrabold ml-[-30px] text-center w-[125px] ">
                 You put a token money of say ₹10
@@ -86,11 +86,11 @@ const WinDouble = () => {
             />
           </div>
         </div>
-        <div className="2xl:container relative hidden sm:flex items-end justify-center  m-auto h-[518px]">
+        <div className="!max-w-[1440px] relative hidden sm:flex items-end justify-center  mx-auto h-[518px]">
           <div className="absolute left-[210px]">
             <div className="relative">
               <div className="flex ">
-                <h2 className="leading-[28px] text-[23px] right-[180px] font-extrabold text-center w-[162PX] absolute top-[-100px] rotate-[-17deg] ">
+                <h2 className="leading-[28px] text-[23px] right-[180px] font-extrabold text-center w-[162PX] absolute top-[-100px] text-white rotate-[-17deg] ">
                   You put a token money of say ₹10
                 </h2>
                 <Image

@@ -3,7 +3,7 @@ import "./globals.css";
 import Head from "next/head";
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
+  variable: "--font-custom",
   subsets: ["latin"],
 });
 
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         />
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`font-custom antialiased`}
       >
         {children}
       </body>

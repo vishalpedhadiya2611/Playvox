@@ -76,8 +76,8 @@ const TestimonialsCarousel = () => {
                 return (
                   <div
                     key={imageItem.id}
-                    className={`testimonial-card p-[18px] sm:p-[25px] opacity-[1] bg-gray-800 w-[360px] text-white shadow-md text-center rounded-[23.88px] ${
-                      index === 1 ? "scale-[1.2] z-10" : "opacity-70 z-0"
+                    className={`testimonial-card p-[18px] sm:p-[25px] opacity-[1] bg-[#222734] w-[360px] text-white shadow-md text-center rounded-[23.88px] ${
+                      index === 1 ? "scale-[1.2] shadow-card-shadow z-10" : "!opacity-70 z-0"
                     } transition-transform duration-300 `}
                     onClick={(e) => {
                       e.stopPropagation();

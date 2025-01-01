@@ -1,5 +1,6 @@
 .testimonial-carousel {
   padding: 40px 20px;
+  overflow: hidden;
 }
 
 .testimonial-card {
