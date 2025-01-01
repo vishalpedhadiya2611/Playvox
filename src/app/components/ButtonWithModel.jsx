@@ -59,12 +59,14 @@ const ButtonWithModal = ({ className }) => {
                   width={100}
                   height={100}
                   className="w-[173px] h-[58px]"
+                  alt="app-store"
                 />
                 <Image
                   src="/assets/app-play-store/google-play.png"
                   width={100}
                   height={100}
                   className="w-[173px] h-[58px]"
+                  alt="google-play"
                 />
               </div>
               <div>

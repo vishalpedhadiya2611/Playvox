@@ -1,14 +1,13 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
-import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-
-// Dynamic import for jQuery and Owl Carousel to load only in the browser
 import dynamic from "next/dynamic";
-
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+  ssr: false,
+});
 const Carousel = () => {
   const [mounted, setMounted] = useState(false);
 
@@ -34,7 +33,6 @@ const Carousel = () => {
       768: {
         items: 5,
         center: false,
-        dots: true,
       },
     },
   };

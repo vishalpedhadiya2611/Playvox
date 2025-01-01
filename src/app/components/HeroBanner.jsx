@@ -19,12 +19,14 @@ const HeroBanner = () => {
               width={100}
               height={100}
               className="w-[130px] sm:w-[173px] h-[48px] sm:h-[58px]"
+              alt="app-store"
             />
             <Image
               src="/assets/app-play-store/google-play.png"
               width={100}
               height={100}
               className="w-[130px] sm:w-[173px] h-[48px] sm:h-[58px]"
+              alt="google-play"
             />
           </div>
         </div>

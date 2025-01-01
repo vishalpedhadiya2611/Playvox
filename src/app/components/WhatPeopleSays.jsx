@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import TestimonialsCarousel from "./TestimonialsCarousel";
-import OwlCarousel from "react-owl-carousel";
 import Marquee from "react-fast-marquee";
 
 const data = [
@@ -12,29 +11,6 @@ const data = [
   "/assets/Our Partners/5.png",
   "/assets/Our Partners/6.png",
 ];
-
-const options = {
-  loop: true,
-  center: false,
-  items: 5,
-  margin: 10,
-  nav: false,
-  dots: false,
-  autoplay: true,
-  autoplayTimeout: 3000,
-  autoplayHoverPause: true,
-  // responsive: {
-  //   0: {
-  //     items: 2,
-  //     center: true,
-  //   },
-  //   768: {
-  //     items: 5,
-  //     center: false,
-  //     dots: true,
-  //   },
-  // },
-};
 
 const WhatPeopleSays = () => {
   return (
@@ -59,6 +35,7 @@ const WhatPeopleSays = () => {
                   width={100}
                   height={50}
                   className="object-contain"
+                  alt=""
                 />
               ))}
             </div>

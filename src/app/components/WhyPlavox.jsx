@@ -60,6 +60,7 @@ const WhyPlavox = () => {
                 width={100}
                 height={100}
                 className="w-[30px] h-[30px]"
+                alt={img?.title}
               />
             </div>
             <div className="sm:w-[210px] mx-auto">
@@ -76,7 +77,8 @@ const WhyPlavox = () => {
       <div className="bg-back-image ">
         <div className="bg-back-gradient pt-[52px] pb-[43px]">
           <h2 className="font-extrabold text-[36px] p-4 sm:text-[40px] leading-[50px] text-center mb-[29px]">
-            Earn cashback upto <br className="hidden sm:block" /> ₹300 on App download!
+            Earn cashback upto <br className="hidden sm:block" /> ₹300 on App
+            download!
           </h2>
           <div className="flex justify-center items-center gap-2 flex-wrap">
             <Image
@@ -84,12 +86,14 @@ const WhyPlavox = () => {
               width={100}
               height={100}
               className="w-[130px] sm:w-[173px] h-[58px]"
+              alt="app-store"
             />
             <Image
               src="/assets/app-play-store/google-play.png"
               width={100}
               height={100}
               className="w-[130px] sm:w-[173px] h-[58px]"
+              alt="google-play"
             />
           </div>
         </div>
