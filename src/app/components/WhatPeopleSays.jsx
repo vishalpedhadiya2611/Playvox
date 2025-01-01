@@ -10,6 +10,9 @@ const data = [
   "/assets/Our Partners/4.svg",
   "/assets/Our Partners/5.svg",
   "/assets/Our Partners/6.svg",
+  "/assets/Our Partners/7.svg",
+  "/assets/Our Partners/8.svg",
+  "/assets/Our Partners/9.svg",
 ];
 
 const WhatPeopleSays = () => {
@@ -27,7 +30,7 @@ const WhatPeopleSays = () => {
         </h2>
         <div className="max-w-[880px] mx-auto">
           <Marquee>
-            <div className="flex gap-5 sm:gap-12 justify-center pb-[51px] ">
+            <div className="flex gap-5 sm:gap-12 justify-center pb-[51px] our-img">
               {data.map((res, index) => (
                 <Image
                   key={index}

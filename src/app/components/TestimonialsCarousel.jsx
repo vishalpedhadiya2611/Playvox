@@ -121,7 +121,7 @@ const TestimonialsCarousel = () => {
               className="owl-carousel owl-theme"
             >
               {testimonials?.map((ele) => (
-                <div className="item p-[18px] sm:p-[25px] opacity-[1] bg-[#222734] w-[360px] text-white shadow-md text-center rounded-[23.88px]">
+                <div className="item p-[18px] sm:p-[25px] opacity-[1] bg-[#222734] text-white shadow-md text-center rounded-[23.88px]">
                   <Image
                     className="!w-[80px] h-[80px] mb-[9px] sm:mb-5 !inline"
                     src={ele?.image}
