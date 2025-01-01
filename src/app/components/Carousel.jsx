@@ -8,6 +8,7 @@ import dynamic from "next/dynamic";
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
 });
+
 const Carousel = () => {
   const [mounted, setMounted] = useState(false);
 
