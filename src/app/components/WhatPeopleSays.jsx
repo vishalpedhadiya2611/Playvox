@@ -18,14 +18,14 @@ const data = [
 const WhatPeopleSays = () => {
   return (
     <div className="bg-[#141924]">
-      <div>
+      <div className="overflow-hidden">
         <h1 className="text-[36px] sm:text-[40px] leading-[58px] font-extrabold text-center text-white mb-[39px]">
           What People Say
         </h1>
         <TestimonialsCarousel />
       </div>
       <div>
-        <h2 className="text-center font-extrabold text-[36px] sm:text-[40px] sm:mt-[59px] mb-[39px]">
+        <h2 className="text-center font-extrabold text-[36px] sm:text-[40px] mt-6 sm:mt-[59px] mb-[39px]">
           Our Partners
         </h2>
         <div className="max-w-[880px] mx-auto">

@@ -58,7 +58,7 @@ const Carousel = () => {
 
   return (
     <div className="py-8  bg-[#141924]">
-      <div>
+      <div >
         <h2 className="text-center font-extrabold text-[36px] text-white sm:text-[40px] leading-[48px] sm:leading-[58px] mb-[19px] sm:mb-[11px] px-5">
           Play, Win, and{" "}
           <span className="text-[#AA5AFF]">Multiply Your Winnings!</span>

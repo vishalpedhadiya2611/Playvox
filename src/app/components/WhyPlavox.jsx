@@ -51,7 +51,7 @@ const WhyPlavox = () => {
       <h2 className="text-center text-[36px] sm:text-[40px] leading-[58px] font-extrabold mb-[44px]">
         Why Plavox?
       </h2>
-      <div className="max-w-[992px] grid grid-cols-2 ts:grid-cols-3 gap-y-[50px] px-[25px] ss:px-0 mx-auto pb-[51px]">
+      <div className="max-w-[992px] grid rid-cols-1 xs:grid-cols-2 ts:grid-cols-3 gap-y-[50px] px-[25px] ss:px-0 mx-auto pb-[51px]">
         {data.map((img) => (
           <div key={img.key} className="">
             <div className="bg-[#7D04FC] mx-auto mb-[23px] w-[68px] h-[68px] rounded-full flex justify-center items-center">
@@ -63,7 +63,7 @@ const WhyPlavox = () => {
                 alt={img?.title}
               />
             </div>
-            <div className="sm:w-[210px] mx-auto">
+            <div className="w-[160px] ss:w-[210px] mx-auto">
               <h2 className="text-[21px] text-center mb-[17px] leading-[26.46px] font-bold text-white">
                 {img.title}
               </h2>
