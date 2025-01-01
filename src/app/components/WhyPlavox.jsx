@@ -74,7 +74,7 @@ const WhyPlavox = () => {
           </div>
         ))}
       </div>
-      <div className="bg-back-image bg-no-repeat bg-cover">
+      <div className="bg-back-image bg-no-repeat bg-cover bg-[36%_top]">
       <div className="bg-cashback pt-[52px] pb-[43px]">
           <h2 className="font-extrabold text-[36px] lg:py-4 px-[21px] sm:text-[40px] leading-[50px] text-center mb-[29px]">
             Earn cashback upto <br className="hidden sm:block" /> ₹300 on App
@@ -85,14 +85,14 @@ const WhyPlavox = () => {
               src="/assets/app-play-store/app-store.png"
               width={100}
               height={100}
-              className="w-[130px] sm:w-[173px] h-auto"
+              className="w-[160px] sm:w-[173px] h-auto"
               alt="app-store"
             />
             <Image
               src="/assets/app-play-store/google-play.png"
               width={100}
               height={100}
-              className="w-[130px] sm:w-[173px] h-auto"
+              className="w-[160px] sm:w-[173px] h-auto"
               alt="google-play"
             />
           </div>

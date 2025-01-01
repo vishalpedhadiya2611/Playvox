@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="flex justify-center items-center">
           <Image alt="group" width={50} height={50} src="/assets/Group 1171275367.svg" className="w-[174px] h-[64px] object-contain"/>
         </div>
-        <div className="w-full text-base ss:mx-auto text-center mt-[22px] leading-[28px] font-normal text-white mb-[55px] max-w-[639px] px-5">
+        <div className="w-full text-base ss:mx-auto text-center mt-[22px] leading-[28px] font-normal text-white mb-[55px] max-w-[639px] px-[50px]">
           Join 1000s of active users and turn your gaming skills into rewards.
           Compete, win, and grow with Plavox!
         </div>

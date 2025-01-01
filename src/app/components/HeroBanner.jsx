@@ -13,19 +13,19 @@ const HeroBanner = () => {
             Welcome to Plavox, where your skills meet opportunity! With over 15
             exciting games, there’s something for everyone to enjoy.
           </div>
-          <div className="flex justify-start items-center gap-2 flex-wrap">
+          <div className="flex justify-start items-center gap-2 flex-wrap xs:flex-nowrap">
             <Image
               src="/assets/app-play-store/app-store.svg"
               width={100}
               height={100}
-              className="w-[130px] sm:w-[173px] h-[48px] sm:h-[58px]"
+              className="w-[160px] sm:w-[173px] h-auto"
               alt="app-store"
             />
             <Image
               src="/assets/app-play-store/google-play.svg"
               width={100}
               height={100}
-              className="w-[130px] sm:w-[173px] h-[48px] sm:h-[58px]"
+              className="w-[160px] sm:w-[173px] h-auto"
               alt="google-play"
             />
           </div>
