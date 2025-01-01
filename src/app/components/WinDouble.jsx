@@ -6,15 +6,15 @@ const WinDouble = () => {
   return (
     <div className="bg-[#141924] sm:pb-[67px]">
       <div className="px-[24px]">
-        <h2 className="text-center tracking-[3px] sm:tracking-[14px] text-[14px] sm:text-xl font-medium leading-[28px] pt-[23px] text-[#656B7B] mb-[59px]">
+        {/* <h2 className="text-center tracking-[3px] sm:tracking-[14px] text-[14px] sm:text-xl font-medium leading-[28px] text-[#656B7B] mb-[59px]">
           And much more in development!
-        </h2>
-        <h2 className="text-center text-[36px] sm:text-[40px] font-extrabold leading-[48px] sm:leading-[58px] mt-[23px] text-[#fff]">
+        </h2> */}
+        <h2 className="text-center text-[36px] sm:text-[40px] font-extrabold leading-[48px] sm:leading-[58px] text-[#fff]">
           How will you win the double??
         </h2>
         <div className="text-center text-[14px]  sm:text-base leading-[24px] mt-[14px] sm:mt-0 sm:leading-[29px] font-normal text-[#939393] max-w-[571px] w-full mx-auto mb-[18px] sm:mb-8">
           Ready to double your winnings? Dive into thrilling matchups, test your
-          skills, <br /> and claim victory to take it all!
+          skills, <br className="hidden lg:block"/> and claim victory to take it all!
         </div>
         <div className="flex justify-center w-full">
           <ButtonWithModal />

@@ -26,11 +26,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.bg-double{
-  background: linear-gradient(87.24deg, #22293A 0.69%, #29344D 99.64%);
+.bg-double {
+  background: linear-gradient(87.24deg, #22293a 0.69%, #29344d 99.64%);
 }
-.bg{
-  background: url('/assets/cashback/mask-group.png');
+.bg {
+  background: url("/assets/cashback/mask-group.png");
 }
 
 .bg-cashback{
@@ -40,3 +40,16 @@ body {
 /* .owl-item.active.center .testimonial-card{
   padding: 50px 25px;
 } */
+.owl-theme .owl-dots .active span {
+  background-color: #aa5aff !important;
+  width: 24.43px !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+  margin: 5px 2px !important;
+}
+.owl-theme .owl-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -120px;
+  left: 0;
+}
