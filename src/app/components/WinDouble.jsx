@@ -87,7 +87,7 @@ const WinDouble = () => {
           
           </div>
         </div>
-        <div className="!max-w-[1440px] relative hidden ts:flex items-end justify-center  mx-auto h-[518px] overflow-x-clip">
+        <div className="!max-w-[1440px] overflow-x-clip relative hidden ts:flex items-end justify-center  mx-auto h-[518px]">
           <div className="absolute left-[20px] el:left-[320px]">
             <div className="relative">
               <div className="flex ">

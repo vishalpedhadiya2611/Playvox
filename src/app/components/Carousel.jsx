@@ -28,7 +28,7 @@ const Carousel = () => {
     autoplayHoverPause: true,
     responsive: {
       0: {
-        items: 1,
+        items: 2,
         center: true,
       },
       325: {
@@ -72,232 +72,270 @@ const Carousel = () => {
       </div>
       <div className="relative">
         <OwlCarousel className="owl-carousel owl-theme" {...options}>
-          <div className="item rounded-[30px] overflow-hidden  relative group ">
-            <Image
-              src="/assets/PlayWinAndMultiplyYourWinnings/Vertical-Banner.svg"
-              alt="Item 1"
-              width={100}
-              height={100}
-              className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
-            />
-            <div className=" p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-5 ls:pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Chess
-              </h6>
-              <p className="text-xs leading-[18.5px] xl:text-lg font-normal">
-                A two-player game, where each player starts with 12 pieces. The
-                objective is to capture all opponent's pieces or block their
-                moves, with kings moving both forward and backward
-              </p>
-            </div>
-            <div className="absolute bottom-[51px] left-[32px]">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Chess
-              </h6>
-            </div>
-          </div>
-          <div className="item rounded-[30px] overflow-hidden relative group">
-            <Image
-              src="/assets/PlayWinAndMultiplyYourWinnings/Vertical-Banner-1.svg"
-              alt="Item 2"
-              width={100}
-              height={100}
-              className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
-            />
-            <div className="p-[14px] pl-[29px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-center items-start flex-col h-full w-full absolute top-0 left-0">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Chess
-              </h6>
-              <p className="text-xs leading-[18.5px] xl:text-lg mt-4 font-normal">
-                A two-player game, where each player starts with 12 pieces. The
-                objective is to capture all opponent's pieces or block their
-                moves, with kings moving both forward and backward
-              </p>
-            </div>
-            <div className="absolute bottom-[51px] left-[29px]">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Checkers
-              </h6>
+          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+            <div className="card-inner h-full">
+              <div className="card-front">
+                <Image
+                  src="/assets/PlayWinAndMultiplyYourWinnings/Vertical-Banner.svg"
+                  alt="Item 1"
+                  width={100}
+                  height={100}
+                  className="h-[263px] rounded-[30px] object-cover sm:h-[303px] xl:h-[400px] !w-full"
+                />
+                <div className="absolute bottom-[51px] left-[32px]">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
+                    Chess
+                  </h6>
+                </div>
+              </div>
+              <div className="card-back card-back-1 ">
+                <div className="flex-col flex h-full w-full !items-start pt-5 ss:pt-[30px] lg:pt-[50px] bg-card-custom-gradient backdrop-blur-custom pl-[29px] !justify-start">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
+                    Chess
+                  </h6>
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                    A two-player game, where each player starts with 12 pieces.
+                    The objective is to capture all opponent's pieces or block
+                    their moves, with kings moving both forward and backward
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="item rounded-[30px] overflow-hidden relative group">
-            <Image
-              src="/assets/PlayWinAndMultiplyYourWinnings/Banner.svg"
-              alt="Item 3"
-              width={100}
-              height={100}
-              className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
-            />
-            <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-5 ls:pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Chess
-              </h6>
-              <p className="text-xs leading-[18.5px] xl:text-lg mt-4 font-normal">
-                A two-player game, where each player starts with 12 pieces. The
-                objective is to capture all opponent's pieces or block their
-                moves, with kings moving both forward and backward
-              </p>
-            </div>
-            <div className="absolute bottom-[51px] left-[32px]">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (4).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Dance Arena
-              </h6>
-            </div>
-          </div>
-          <div className="item rounded-[30px] overflow-hidden relative group">
-            <Image
-              src="/assets/PlayWinAndMultiplyYourWinnings/Vertical-Banner-2.svg"
-              alt="Item 4"
-              width={100}
-              height={100}
-              className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
-            />
-            <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-5 ls:pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Chess
-              </h6>
-              <p className="text-xs leading-[18.5px] xl:text-lg mt-4 font-normal">
-                A two-player game, where each player starts with 12 pieces. The
-                objective is to capture all opponent's pieces or block their
-                moves, with kings moving both forward and backward
-              </p>
-            </div>
-            <div className="absolute bottom-[51px] left-[32px]">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (5).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Owl Adventure
-              </h6>
+          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+            <div className="card-inner h-full">
+              <div className="card-front">
+                <div className="absolute bottom-[51px] left-[29px]">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
+                    Checkers
+                  </h6>
+                </div>
+                <Image
+                  src="/assets/PlayWinAndMultiplyYourWinnings/Vertical-Banner-1.svg"
+                  alt="Item 2"
+                  width={100}
+                  height={100}
+                  className="h-[263px] rounded-[30px] object-cover sm:h-[303px] xl:h-[400px] !w-full"
+                />
+              </div>
+              <div className="card-back card-back-2">
+                <div className="flex-col flex h-full w-full !items-start pt-5 ss:pt-[30px] lg:pt-[50px] bg-card-custom-gradient backdrop-blur-custom pl-[29px] !justify-start">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
+                    Chess
+                  </h6>
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                    A two-player game, where each player starts with 12 pieces.
+                    The objective is to capture all opponent's pieces or block
+                    their moves, with kings moving both forward and backward
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="item rounded-[30px] overflow-hidden relative group">
-            <Image
-              src="/assets/PlayWinAndMultiplyYourWinnings/Banner-1.svg"
-              alt="Item 5"
-              width={100}
-              height={100}
-              className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
-            />
-            <div className=" p-[14px] hidden backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] group-hover:flex justify-center items-start  flex-col h-full w-full absolute top-0 left-0">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Chess
-              </h6>
-              <p className="text-xs leading-[18.5px] xl:text-lg mt-4 font-normal">
-                A two-player game, where each player starts with 12 pieces. The
-                objective is to capture all opponent's pieces or block their
-                moves, with kings moving both forward and backward
-              </p>
-            </div>
-            <div className="absolute bottom-[51px] left-[32px]">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (6).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Tic Tac Toe
-              </h6>
+          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+            <div className="card-inner h-full">
+              <div className="card-front">
+                <Image
+                  src="/assets/PlayWinAndMultiplyYourWinnings/Banner.svg"
+                  alt="Item 3"
+                  width={100}
+                  height={100}
+                  className="h-[263px] rounded-[30px] object-cover sm:h-[303px] xl:h-[400px] !w-full"
+                />
+                <div className="absolute bottom-[51px] left-[32px]">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (4).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
+                    Dance Arena
+                  </h6>
+                </div>
+              </div>
+              <div className="card-back card-back-3">
+                <div className="flex-col flex h-full w-full !items-start pt-5 ss:pt-[30px] lg:pt-[50px] bg-card-custom-gradient backdrop-blur-custom pl-[29px] !justify-start">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
+                    Chess
+                  </h6>
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                    A two-player game, where each player starts with 12 pieces.
+                    The objective is to capture all opponent's pieces or block
+                    their moves, with kings moving both forward and backward
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="item rounded-[30px] overflow-hidden relative group">
-            <Image
-              src="/assets/PlayWinAndMultiplyYourWinnings/Banner.png"
-              alt="Item 3"
-              width={100}
-              height={100}
-              className="h-[263px] sm:h-[303px] xl:h-[400px] !w-full"
-            />
-            <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-5 ls:pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Chess
-              </h6>
-              <p className="text-xs leading-[18.5px] xl:text-lg mt-4 font-normal">
-                A two-player game, where each player starts with 12 pieces. The
-                objective is to capture all opponent's pieces or block their
-                moves, with kings moving both forward and backward
-              </p>
+          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+            <div className="card-inner h-full">
+              <div className="card-front">
+                <Image
+                  src="/assets/PlayWinAndMultiplyYourWinnings/Vertical-Banner-2.svg"
+                  alt="Item 4"
+                  width={100}
+                  height={100}
+                  className="h-[263px] rounded-[30px] object-cover sm:h-[303px] xl:h-[400px] !w-full"
+                />
+                <div className="absolute bottom-[51px] left-[32px]">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (5).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
+                    Owl Adventure
+                  </h6>
+                </div>
+              </div>
+              <div className="card-back card-back-4">
+                <div className="flex-col flex h-full w-full !items-start pt-5 ss:pt-[30px] lg:pt-[50px] bg-card-custom-gradient backdrop-blur-custom pl-[29px] !justify-start">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
+                    Chess
+                  </h6>
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                    A two-player game, where each player starts with 12 pieces.
+                    The objective is to capture all opponent's pieces or block
+                    their moves, with kings moving both forward and backward
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="absolute bottom-[51px] left-[32px]">
-              <Image
-                src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (4).png"
-                alt="Checkers"
-                width={30}
-                height={30}
-                className="!w-[40px] h-[40px]"
-              />
-              <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
-                Dance Arena
-              </h6>
+          </div>
+          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+            <div className="card-inner h-full">
+              <div className="card-front">
+                <Image
+                  src="/assets/PlayWinAndMultiplyYourWinnings/Banner-1.svg"
+                  alt="Item 5"
+                  width={100}
+                  height={100}
+                  className="h-[263px] rounded-[30px] object-cover sm:h-[303px] xl:h-[400px] !w-full"
+                />
+                <div className="absolute bottom-[51px] left-[32px]">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (6).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
+                    Tic Tac Toe
+                  </h6>
+                </div>
+              </div>
+
+              <div className="card-back card-back-5">
+                <div className="flex-col flex h-full w-full !items-start pt-5 ss:pt-[30px] lg:pt-[50px] bg-card-custom-gradient backdrop-blur-custom pl-[29px] !justify-start">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
+                    Chess
+                  </h6>
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                    A two-player game, where each player starts with 12 pieces.
+                    The objective is to capture all opponent's pieces or block
+                    their moves, with kings moving both forward and backward
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+            <div className="card-inner h-full">
+              <div className="card-front">
+                <Image
+                  src="/assets/PlayWinAndMultiplyYourWinnings/Banner.svg"
+                  alt="Item 3"
+                  width={100}
+                  height={100}
+                  className="h-[263px] rounded-[30px] object-cover sm:h-[303px] xl:h-[400px] !w-full"
+                />
+                <div className="absolute bottom-[51px] left-[32px]">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (4).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-[28px] leading-[29px] font-bold text-white mt-[17px]">
+                    Dance Arena
+                  </h6>
+                </div>
+              </div>
+
+              <div className="card-back card-back-3">
+                <div className="flex-col flex h-full w-full !items-start pt-5 ss:pt-[30px] lg:pt-[50px] bg-card-custom-gradient backdrop-blur-custom pl-[29px] !justify-start">
+                  <Image
+                    src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
+                    alt="Checkers"
+                    width={30}
+                    height={30}
+                    className="!w-[40px] h-[40px]"
+                  />
+                  <h6 className="text-xl ss:text-[28px] leading-[29px] font-bold text-white mt-2 ss:mt-[17px]">
+                    Chess
+                  </h6>
+                  <p className="text-xs leading-[18.5px] xl:text-lg mt-2 ss:mt-4 font-normal">
+                    A two-player game, where each player starts with 12 pieces.
+                    The objective is to capture all opponent's pieces or block
+                    their moves, with kings moving both forward and backward
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </OwlCarousel>

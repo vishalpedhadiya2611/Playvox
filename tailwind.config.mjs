@@ -27,6 +27,9 @@ export default {
       backdropBlur: {
         'custom': '12.470464706420898px', // Add your custom blur value
       },
+      transform: {
+        'rotate-y-180': 'rotateY(180deg)',
+      },
       backgroundImage: {
         "hero-pattern": "url('/assets/Main-menu/bg.png')",
         'back-image': "url('/assets/cashback/mask-group.svg')",
