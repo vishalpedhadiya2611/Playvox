@@ -2,8 +2,8 @@
 import Image from "next/image";
 import React, { useState, useEffect, useRef } from "react";
 
-const ButtonWithModal = ({ className }) => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+const ButtonWithModal = ({ className, defaultOpen=false }) => {
+  const [isModalOpen, setIsModalOpen] = useState(defaultOpen);
   const modalRef = useRef(null);
   const modalOverlayRef = useRef(null);
 
@@ -20,11 +20,17 @@ const ButtonWithModal = ({ className }) => {
         closeModal();
       }
     };
+
     if (isModalOpen) {
       document.addEventListener("click", handleOutsideClick);
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
     }
+
     return () => {
       document.removeEventListener("click", handleOutsideClick);
+      document.body.style.overflow = "auto";
     };
   }, [isModalOpen]);
 
@@ -32,7 +38,7 @@ const ButtonWithModal = ({ className }) => {
     <div className={`flex justify-center mb-[53px] sm:mb-[67px] ${className}`}>
       <button
         onClick={openModal}
-        className="text-[19.37px] font-bold  leading-[24px] bg-custom-gradient h-[59px] w-[290px] rounded-[43.05px] hover:!bg-bg-hover m-0 hover:text-[#7f37f6]"
+        className="text-[19.37px] font-bold leading-[24px] bg-custom-gradient h-[59px] w-[290px] rounded-[43.05px] hover:!bg-bg-hover m-0 hover:text-[#7f37f6]"
       >
         Download the app
       </button>
@@ -103,7 +109,7 @@ const ButtonWithModal = ({ className }) => {
           border-radius: 37.82px;
           padding-bottom: 0;
           height: 593px;
-          width:95%;
+          width: 95%;
           max-width: 646.78px;
           text-align: center;
           position: relative;

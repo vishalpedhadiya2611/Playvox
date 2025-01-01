@@ -17,7 +17,7 @@ const WinDouble = () => {
           skills, <br className="hidden lg:block"/> and claim victory to take it all!
         </div>
         <div className="flex justify-center w-full">
-          <ButtonWithModal />
+          <ButtonWithModal defaultOpen={true} />
         </div>
       </div>
       <div className="bg-double relative h-fit ls:h-[517px]">
