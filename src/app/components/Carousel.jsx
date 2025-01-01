@@ -259,7 +259,7 @@ const Carousel = () => {
         </div>
         <div className="item rounded-[30px] overflow-hidden relative group">
           <Image
-            src="/assets/PlayWinAndMultiplyYourWinnings/Banner.png"
+            src="/assets/PlayWinAndMultiplyYourWinnings/Banner.svg"
             alt="Item 3"
             width={100}
             height={100}
@@ -267,7 +267,7 @@ const Carousel = () => {
           />
           <div className="p-[14px] backdrop-blur-custom bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.7)] z-[2] hidden group-hover:flex justify-start pt-[50px] items-start flex-col h-full w-full absolute top-0 left-0">
             <Image
-              src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).png"
+              src="/assets/PlayWinAndMultiplyYourWinnings/sub-logo/Logo (3).svg"
               alt="Checkers"
               width={30}
               height={30}
