@@ -32,7 +32,7 @@ const ButtonWithModal = ({ className }) => {
     <div className={`flex justify-center mb-[53px] sm:mb-[67px] ${className}`}>
       <button
         onClick={openModal}
-        className="text-[19.37px] font-bold  leading-[24px] bg-custom-gradient h-[59px] w-[290px] rounded-[43.05px] hover:!bg-bg-hover hover:text-[#7f37f6]"
+        className="text-[19.37px] font-bold  leading-[24px] bg-custom-gradient h-[59px] w-[290px] rounded-[43.05px] hover:!bg-bg-hover m-0 hover:text-[#7f37f6]"
       >
         Download the app
       </button>
@@ -44,7 +44,7 @@ const ButtonWithModal = ({ className }) => {
               &times;
             </button>
             <div className="modal-content">
-              <h2 className="font-extrabold text-center text-4xl mb-4">
+              <h2 className="font-extrabold text-center text-2xl md:text-4xl mb-4">
                 Earn cashback upto <br /> ₹300 on App download!{" "}
               </h2>
               <div className="font-normal w-[90%] max-w-[388px] mx-auto text-base mb-[22px] text-[#939393]">
@@ -53,20 +53,18 @@ const ButtonWithModal = ({ className }) => {
                 skill-based wagering across hundreds of mobile games.
                 </p>
               </div>
-              <div className="flex justify-center items-center gap-2 mb-[30px]">
+              <div className="flex justify-center items-center gap-2 mb-4 md:mb-[30px]">
                 <Image
                   src="/assets/app-play-store/app-store.png"
                   width={100}
                   height={100}
-                  className="w-[173px] h-[58px]"
-                  alt="app-store"
+                  className="w-[130px] md:w-[173px] h-auto"
                 />
                 <Image
                   src="/assets/app-play-store/google-play.png"
                   width={100}
                   height={100}
-                  className="w-[173px] h-[58px]"
-                  alt="google-play"
+                  className="w-[130px] md:w-[173px] h-auto"
                 />
               </div>
               <div>
@@ -105,7 +103,8 @@ const ButtonWithModal = ({ className }) => {
           border-radius: 37.82px;
           padding-bottom: 0;
           height: 593px;
-          width: 646.78px;
+          width:95%;
+          max-width: 646.78px;
           text-align: center;
           position: relative;
           overflow: hidden;

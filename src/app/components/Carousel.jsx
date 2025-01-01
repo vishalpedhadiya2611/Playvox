@@ -32,6 +32,16 @@ const Carousel = () => {
         center: true,
       },
       768: {
+        items: 3,
+        center: false,
+        dots: true,
+      },
+      993: {
+        items: 4,
+        center: false,
+        dots: true,
+      },
+      1024: {
         items: 5,
         center: false,
       },
@@ -45,7 +55,7 @@ const Carousel = () => {
   return (
     <div className="py-8  bg-[#141924]">
       <div>
-        <h2 className="text-center font-extrabold text-[36px] sm:text-[40px] leading-[48px] sm:leading-[58px] mb-[19px] sm:mb-[11px]">
+        <h2 className="text-center font-extrabold text-[36px] text-white sm:text-[40px] leading-[48px] sm:leading-[58px] mb-[19px] sm:mb-[11px]">
           Play, Win, and{" "}
           <span className="text-[#AA5AFF]">Multiply Your Winnings!</span>
         </h2>

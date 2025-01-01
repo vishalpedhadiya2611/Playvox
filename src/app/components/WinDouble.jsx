@@ -20,18 +20,18 @@ const WinDouble = () => {
           <ButtonWithModal />
         </div>
       </div>
-      <div className="bg-double relative h-fit sm:h-[517px]">
-        <div className="block sm:hidden">
-          <div className="h-[269px] flex items-center overflow-hidden">
+      <div className="bg-double relative h-fit ls:h-[517px]">
+        <div className="block ts:hidden">
+          <div className="h-[229px] flex items-center overflow-hidden justify-center">
             <Image
               src="/assets/How will you win the double/Group 1171275348.svg"
               alt="img1"
               width={100}
               height={100}
-              className="h-[269px] object-contain !w-auto ml-[-30px]"
+              className="h-[229px] object-contain !w-auto ml-[-30px]"
             />
             <div className="flex flex-col">
-              <h2 className="leading-[28px] text-[19px] sm:text-[23px] font-extrabold ml-[-30px] text-center w-[125px] ">
+              <h2 className="leading-[28px] text-[19px] ls:text-[23px] font-extrabold ml-[-30px] text-center w-[125px] ">
                 You put a token money of say ₹10
               </h2>
               <Image
@@ -45,7 +45,7 @@ const WinDouble = () => {
           </div>
           <div className="h-[269px] relative flex items-center overflow-hidden justify-end bg-[#141924]">
             <div className="flex flex-col absolute left-[40px]">
-              <h2 className="leading-[28px] text-[19px] sm:text-[23px] font-extrabold ml-[-30px] text-center w-[125px]">
+              <h2 className="leading-[28px] text-[19px] ls:text-[23px] font-extrabold ml-[-30px] text-center w-[125px]">
                 You put a token money of say ₹10
               </h2>
               <Image
@@ -64,9 +64,16 @@ const WinDouble = () => {
               className="h-[269px] object-contain ml-[20px] !w-auto"
             />
           </div> 
-          <div className="h-[269px] flex items-center overflow-hidden">
+          <div className="h-[229px] flex items-center overflow-hidden justify-center">
+          <Image
+              src="/assets/How will you win the double/Mask group.svg"
+              width={100}
+              height={100}
+              alt="img3"
+              className="h-[240px] object-contain mr-[-20px] !w-auto"
+            />
             <div className="flex flex-col">
-              <h2 className="leading-[28px] text-[19px] sm:text-[23px] font-extrabold ml-[-30px] text-center w-[125px] ">
+              <h2 className="leading-[28px] text-[19px] ls:text-[23px] font-extrabold ml-[-30px] text-center w-[125px] ">
                 You put a token money of say ₹10
               </h2>
               <Image
@@ -77,17 +84,11 @@ const WinDouble = () => {
                 className="w-[62.69px] rotate-[-270deg]"
               />
             </div>
-            <Image
-              src="/assets/How will you win the double/Group 1171275349.svg"
-              width={100}
-              height={100}
-              alt="img3"
-              className="h-[240px] object-contain mr-[-30px] !w-auto"
-            />
+          
           </div>
         </div>
-        <div className="!max-w-[1440px] relative hidden sm:flex items-end justify-center  mx-auto h-[518px]">
-          <div className="absolute left-[210px]">
+        <div className="!max-w-[1440px] relative hidden ts:flex items-end justify-center  mx-auto h-[518px]">
+          <div className="absolute left-[20px] el:left-[210px]">
             <div className="relative">
               <div className="flex ">
                 <h2 className="leading-[28px] text-[23px] right-[180px] font-extrabold text-center w-[162PX] absolute top-[-100px] text-white rotate-[-17deg] ">
@@ -98,7 +99,7 @@ const WinDouble = () => {
                   alt="img1"
                   width={100}
                   height={100}
-                  className="top-[-80px] right-[70px] absolute"
+                  className="top-[-80px] right-[88px] el:right-[70px] absolute"
                 />
               </div>
               <Image
@@ -118,14 +119,14 @@ const WinDouble = () => {
                 alt="img2"
                 className="h-[297.46px] !w-auto absolute top-[-30px]"
               />
-              <h2 className="leading-[28px] text-[23px] mt-[150px] font-extrabold text-center w-[220px] ">
+              <h2 className="leading-[28px] text-[23px] text-white mt-[150px] font-extrabold text-center w-[220px] ">
                 Compete against another player with a ₹10 bet
               </h2>
             </div>
-          <div className="absolute right-[130px]">
+          <div className="absolute right-[-100px] el:right-[130px]">
             <div className="relative">
               <div className="flex">
-                <h2 className="leading-[28px] text-[23px] left-[270px] font-extrabold text-center w-[162PX] absolute top-[-51px] rotate-[15deg] ">
+                <h2 className="leading-[28px] text-[23px] left-[270px] font-extrabold text-center w-[162PX] absolute top-[-51px] text-white rotate-[15deg] ">
                   The winner takes the entire pot
                 </h2>
                 <Image
