@@ -1,10 +1,14 @@
 "use client";
-import React, { useEffect, useState } from "react";
-// import OwlCarousel from "react-owl-carousel";
-// import "owl.carousel/dist/assets/owl.carousel.css";
-// import "owl.carousel/dist/assets/owl.theme.default.css";
-import "./TestimonialsCarousel.css";
+import React, { useEffect, useRef, useState } from "react";
+import "owl.carousel/dist/assets/owl.carousel.css"; 
+import "owl.carousel/dist/assets/owl.theme.default.css"; 
 import Image from "next/image";
+import dynamic from "next/dynamic";
+import "./TestimonialsCarousel.css"; 
+
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+  ssr: false,
+});
 
 const testimonials = [
   {
@@ -31,102 +35,66 @@ const testimonials = [
 ];
 
 const TestimonialsCarousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
   const [mounted, setMounted] = useState(false);
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     moveItems();
-  //   }, 1000);
-
-  //   return () => clearInterval(interval);
-  // }, [currentIndex]);
-
-  const moveItems = () => {
-    const nextIndex = (currentIndex + 1) % testimonials.length;
-
-    setCurrentIndex(nextIndex);
-  };
-
-  const handleItemClick = (index) => {
-    setCurrentIndex(index);
-  };
-
-  const getCircularIndex = (index, length) => {
-    return (index + length) % length;
-  };
+  const carouselRef = useRef(null);
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+
+  const carouselOptions = {
+    loop: true,
+    center: true,
+    items: 3,
+    margin: 0,
+    autoplay: false,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: false,
+    responsive: {
+      0: { items: 3 },
+      480: { items: 3 },
+      769: { items: 3 },
+    },
+  };
 
   if (!mounted) {
     return null;
   }
 
   return (
-    <div className="testimonial-carousel bg-[#141924]">
-      <div className="flex items-center justify-center p-5">
-        <div className="flex flex-col items-center">
-          <div className="flex items-center">
-            {Array(3)
-              .fill()
-              .map((_, index) => {
-                const imageItem =
-                  testimonials[
-                    getCircularIndex(
-                      currentIndex + index - 1,
-                      testimonials.length
-                    )
-                  ];
-
-                return (
-                  <div
-                    key={imageItem.id}
-                    className={`testimonial-card p-[18px] sm:p-[25px] opacity-[1] bg-[#222734] w-[260px] lg:w-[360px] text-white shadow-md text-center rounded-[23.88px] ${
-                      index === 1
-                        ? "scale-[1.2] shadow-card-shadow z-10"
-                        : "!opacity-70 z-0"
-                    } transition-transform duration-300 `}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      handleItemClick(
-                        getCircularIndex(
-                          currentIndex + index - 1,
-                          testimonials.length
-                        )
-                      );
-                    }}
-                  >
-                    <div className="flex justify-center items-center">
-                      <Image
-                        src={imageItem.image}
-                        width={20}
-                        height={20}
-                        className="!w-[80px] h-[80px] mb-[9px] sm:mb-5"
-                        alt={imageItem?.name}
-                      />
-                    </div>
-                    <div className="stars flex justify-center mb-2">
-                      {Array.from({ length: imageItem.stars }).map(
-                        (_, index) => (
-                          <span
-                            key={index}
-                            className="text-yellow-500 text-[26px]"
-                          >
-                            ★
-                          </span>
-                        )
-                      )}
-                    </div>
-                    <p className="text-xs sm:text-sm">"{imageItem.text}"</p>
-                  </div>
-                );
-              })}
-          </div>
-        </div>
+    <section className="testimonials py-20 bg-[#141924]">
+    <div className="container mx-auto px-4 people-main">
+      <div className="widgets-img">
+        <OwlCarousel
+          {...carouselOptions}
+          className="owl-carousel owl-theme custom-carousel"
+        >
+          {testimonials?.map((ele, index) => (
+            <div key={index} className={`item carousel-item`}>
+              <div className="card">
+                <Image
+                  className="card-image"
+                  src={ele?.image}
+                  alt="slider-1"
+                  width={80}
+                  height={80}
+                />
+                <div className="stars">
+                  {Array.from({ length: ele.stars }).map((_, idx) => (
+                    <span key={idx} className="star">
+                      ★
+                    </span>
+                  ))}
+                </div>
+                <p className="text line-clamp-5">{ele.text}</p>
+              </div>
+            </div>
+          ))}
+        </OwlCarousel>
       </div>
     </div>
+  </section>
   );
 };
 
