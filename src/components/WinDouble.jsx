@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const WinDouble = () => {
   return (
-    <div className="bg-[#141924] sm:pb-[67px]">
+    <div className="bg-[#141924] ">
       <div className="px-[24px]">
         {/* <h2 className="text-center tracking-[3px] sm:tracking-[14px] text-[14px] sm:text-xl font-medium leading-[28px] text-[#656B7B] mb-[59px]">
           And much more in development!
@@ -88,7 +88,7 @@ const WinDouble = () => {
           </div>
         </div>
         <div className="!max-w-[1440px] overflow-x-clip relative hidden ts:flex items-end justify-center  mx-auto h-[518px]">
-          <div className="absolute left-[20px] el:left-[320px]">
+          <div className="absolute left-[40px] ls:left-[60px] lg:left-[130px] el:left-[220px] ll:left-[290px]">
             <div className="relative">
               <div className="flex ">
                 <h2 className="leading-[28px] tracking-[1px] text-[23px] right-[160px] font-extrabold text-center w-[162PX] absolute top-[-80px] text-white rotate-[-17deg] ">
@@ -123,7 +123,7 @@ const WinDouble = () => {
                 Compete against another player with a ₹10 bet
               </h2>
             </div>
-          <div className="absolute right-[-100px] el:right-[210px]">
+          <div className="absolute right-[-63px] ls:right-[-50px] lg:right-[20px] el:right-[110px] ll:right-[170px]">
             <div className="relative">
               <div className="flex">
                 <h2 className="leading-[28px] tracking-[1px] text-[18px] left-[270px] font-extrabold text-center w-[162PX] absolute top-[-21px] text-white rotate-[15deg] ">

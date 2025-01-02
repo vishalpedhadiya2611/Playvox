@@ -63,7 +63,7 @@ const TestimonialsCarousel = () => {
   }
 
   return (
-    <section className="testimonials py-20 bg-[#141924]">
+    <section className="testimonials bg-[#141924]">
     <div className="container mx-auto px-4 people-main">
       <div className="widgets-img">
         <OwlCarousel

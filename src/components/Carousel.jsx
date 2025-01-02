@@ -23,7 +23,7 @@ const Carousel = () => {
     margin: 10,
     nav: false,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     responsive: {
@@ -35,17 +35,25 @@ const Carousel = () => {
         items: 2,
         center: true,
       },
-      768: {
+      640: {
+        items: 3,
+        center: false,
+      },
+      890: {
         items: 3,
         center: false,
         dots: true,
       },
       993: {
         items: 4,
-        center: false,
+        center: true,
         dots: true,
       },
       1024: {
+        items: 5,
+        center: true,
+      },
+      1200: {
         items: 5,
         center: false,
       },
@@ -72,7 +80,7 @@ const Carousel = () => {
       </div>
       <div className="relative">
         <OwlCarousel className="owl-carousel owl-theme" {...options}>
-          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+          <div className="card h-[263px] md:h-[303px] xl:h-[400px] overflow-hidden">
             <div className="card-inner h-full">
               <div className="card-front">
                 <Image
@@ -116,7 +124,7 @@ const Carousel = () => {
               </div>
             </div>
           </div>
-          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+          <div className="card h-[263px] md:h-[303px] xl:h-[400px] overflow-hidden">
             <div className="card-inner h-full">
               <div className="card-front">
                 <div className="absolute bottom-[51px] left-[29px]">
@@ -160,7 +168,7 @@ const Carousel = () => {
               </div>
             </div>
           </div>
-          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+          <div className="card h-[263px] md:h-[303px] xl:h-[400px] overflow-hidden">
             <div className="card-inner h-full">
               <div className="card-front">
                 <Image
@@ -204,7 +212,7 @@ const Carousel = () => {
               </div>
             </div>
           </div>
-          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+          <div className="card h-[263px] md:h-[303px] xl:h-[400px] overflow-hidden">
             <div className="card-inner h-full">
               <div className="card-front">
                 <Image
@@ -248,7 +256,7 @@ const Carousel = () => {
               </div>
             </div>
           </div>
-          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+          <div className="card h-[263px] md:h-[303px] xl:h-[400px] overflow-hidden">
             <div className="card-inner h-full">
               <div className="card-front">
                 <Image
@@ -293,7 +301,7 @@ const Carousel = () => {
               </div>
             </div>
           </div>
-          <div className="card h-[263px] sm:h-[303px] xl:h-[400px]">
+          <div className="card h-[263px] md:h-[303px] xl:h-[400px] overflow-hidden">
             <div className="card-inner h-full">
               <div className="card-front">
                 <Image

@@ -14,6 +14,8 @@ const data = [
   "/assets/Our Partners/7.svg",
   "/assets/Our Partners/8.svg",
   "/assets/Our Partners/9.svg",
+  "/assets/Our Partners/10.svg",
+  "/assets/Our Partners/11.svg",
 ];
 
 const WhatPeopleSays = () => {

@@ -171,6 +171,14 @@ body {
   width: 140px !important;
   margin: 0 -30px;
 }
+/* .our-img img:nth-child(10){
+  width: 140px !important;
+  margin: 0 -30px;
+}
+ */
+ .our-img img:nth-child(11){
+  margin-right: 30px;
+}
 @media screen and (max-width:992px){
   .our-img img:nth-child(7){
     margin: 0;

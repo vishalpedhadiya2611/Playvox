@@ -133,11 +133,11 @@
   transform: scale(0.95); /* Default smaller size */
   opacity: 0.7; /* Slight transparency for non-center items */
 }
-.owl-carousel .owl-stage {
+.people-main .owl-carousel .owl-stage {
   top: 30px;
 }
-.owl-carousel .owl-stage-outer {
-  height: 450px;
+.people-main .owl-carousel .owl-stage-outer {
+  height: 340px;
 }
 .custom-carousel .owl-item.center .carousel-item {
   transform: scale(1.1); /* Larger size for center item */
