@@ -34,13 +34,13 @@ const TestimonialsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      moveItems();
-    }, 1000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     moveItems();
+  //   }, 1000);
 
-    return () => clearInterval(interval);
-  }, [currentIndex]);
+  //   return () => clearInterval(interval);
+  // }, [currentIndex]);
 
   const moveItems = () => {
     const nextIndex = (currentIndex + 1) % testimonials.length;

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState, useEffect, useRef } from "react";
 
-const ButtonWithModal = ({ className, defaultOpen=false }) => {
+const ButtonWithModal = ({ className, defaultOpen = false }) => {
   const [isModalOpen, setIsModalOpen] = useState(defaultOpen);
   const modalRef = useRef(null);
   const modalOverlayRef = useRef(null);
@@ -46,7 +46,10 @@ const ButtonWithModal = ({ className, defaultOpen=false }) => {
       {isModalOpen && (
         <div className="modal-overlay" ref={modalOverlayRef}>
           <div className="modal" ref={modalRef}>
-            <button className="close-btn p-0 absolute right-5 ss:right-[37px] top-5 ss:top-[37px]" onClick={closeModal}>
+            <button
+              className="close-btn p-0 absolute !right-[27px] ss:!right-[37px] !top-5 ss:!top-[37px]"
+              onClick={closeModal}
+            >
               &times;
             </button>
             <div className="modal-content">
@@ -55,8 +58,8 @@ const ButtonWithModal = ({ className, defaultOpen=false }) => {
               </h2>
               <div className="font-normal w-[90%] max-w-[388px] mx-auto text-base mb-[22px] text-[#939393]">
                 <p>
-                Welcome to Plavox, where your skills meet opportunity! Engage in
-                skill-based wagering across hundreds of mobile games.
+                  Welcome to Plavox, where your skills meet opportunity! Engage
+                  in skill-based wagering across hundreds of mobile games.
                 </p>
               </div>
               <div className="flex justify-center items-center gap-2 mb-4 md:mb-[30px]">
@@ -98,7 +101,11 @@ const ButtonWithModal = ({ className, defaultOpen=false }) => {
           bottom: 0;
           z-index: 999;
           width: 100%;
-          background: linear-gradient(87.24deg, rgba(34, 41, 58, 0.8) 0.69%, rgba(41, 52, 77, 0.8) 99.64%);
+          background: linear-gradient(
+            87.24deg,
+            rgba(34, 41, 58, 0.8) 0.69%,
+            rgba(41, 52, 77, 0.8) 99.64%
+          );
           height: 100vh;
           display: flex;
           justify-content: center;
