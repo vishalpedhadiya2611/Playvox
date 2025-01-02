@@ -2,6 +2,7 @@
 import Image from "next/image";
 import TestimonialsCarousel from "./TestimonialsCarousel";
 import Marquee from "react-fast-marquee";
+import { useEffect, useState } from "react";
 
 const data = [
   "/assets/Our Partners/1.svg",
@@ -16,6 +17,16 @@ const data = [
 ];
 
 const WhatPeopleSays = () => {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
+
   return (
     <div className="bg-[#141924]">
       <div className="overflow-hidden">

@@ -171,3 +171,11 @@ body {
   width: 140px !important;
   margin: 0 -30px;
 }
+@media screen and (max-width:992px){
+  .our-img img:nth-child(7){
+    margin: 0;
+  }
+  .our-img img:nth-child(8){
+    margin-right: 0;
+  }
+}

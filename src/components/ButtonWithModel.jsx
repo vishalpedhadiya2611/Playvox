@@ -65,9 +65,11 @@ const ButtonWithModal = ({ className, defaultOpen=false }) => {
                   width={100}
                   height={100}
                   className="w-[130px] md:w-[173px] h-auto"
+                  alt="app-store"
                 />
                 <Image
                   src="/assets/app-play-store/google-play.png"
+                  alt="google-play"
                   width={100}
                   height={100}
                   className="w-[130px] md:w-[173px] h-auto"
